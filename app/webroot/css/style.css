@@ -1,0 +1,346 @@
+.btn a
+
+{
+
+	color:#fff;
+
+}
+
+
+
+/*  --  Login ct  ---  */
+
+.form-ct{
+
+	width:408px;
+
+	background:#fff;
+
+	margin:150px auto;
+
+	border:1px solid #0eb0e1;
+
+	overflow:hidden;	
+
+}
+
+#ct-form-track
+{
+	width:80%;
+	overflow:hidden;
+	margin:10px 0px 0px 0px;	
+	border:none;
+
+}
+
+#ct-form-ct{
+
+	float:left;
+	overflow:hidden;
+	margin:10px 0px 0px 0px;	
+	border:none;
+
+}
+
+#form-ct-bg{
+
+	width:550px;
+
+}
+
+.form-ct h1{
+
+	margin-bottom:20px;
+
+	background: url(../img/l_bg.png) no-repeat #00b1e8;
+
+	height:72px;
+
+	line-height:72px;
+
+	text-align:center;
+
+	color:#fff;
+
+}
+
+.form-ct h2{
+
+	margin-bottom:20px;
+
+	background:#00b1e8;
+
+	height:72px;
+
+	line-height:72px;
+
+	text-align:center;
+
+	color:#fff;
+
+}
+
+.form-ct form{
+
+	padding:20px 40px;
+
+}
+
+.form-ct .form-m{
+
+	padding:10px 20px;
+
+}
+
+.form-ct form ol{
+
+	padding:0;
+
+	margin:0;
+
+	list-style:none;
+
+}
+
+.form-ct form ol li{
+
+	width:100%;
+
+	padding:0;
+
+	margin-bottom:10px;
+
+}
+
+.form-ct form ol li label{
+
+
+
+}
+
+.form-ct form ol li label.small{
+
+	width:75px;
+
+	display:inline-block;
+
+	vertical-align:top;
+
+	margin-top:10px;
+
+}			
+
+			
+
+.form-ct form ol li input{
+
+	height:30px;	
+
+	padding:0 2%;	
+
+	line-height:30px;
+
+	display:inline-block;	
+
+}
+
+.form-ct form ol li input.half{
+
+	width:45%;
+
+}
+
+.form-ct form ol li input.half-full{
+
+	width:80.7%;
+
+	margin-bottom:10px;
+
+}
+
+.form-ct form ol li input.full{
+
+	width:95%;
+
+}
+
+.form-ct form ol li input.small-full{
+
+	width:200px;
+
+}
+
+.form-ct form ol li select{
+
+	font-size:13px;
+
+	text-align:center;
+
+	color:#a9a9a9;
+
+	height:34px;
+
+	padding:0 5px;
+
+	line-height:34px;
+
+	display:inline-block;
+
+}
+
+.form-ct form ol li select.half{
+
+	width:49%;
+
+	height:34px;
+
+	padding:0 5px;
+
+	line-height:34px;
+
+	display:inline-block;
+
+}
+
+.form-ct form ol li select.half-r{
+
+	width:48%;
+
+	height:34px;
+
+	padding:0 5px;
+
+	line-height:34px;
+
+	display:inline-block;
+
+	margin-left:10px;
+
+}
+
+.form-ct form ol li .user{
+
+	background:#05b3e8;
+
+	width:43px;
+
+	height:34px;
+
+	display: inline-block;
+
+	text-align:center;
+
+	vertical-align:top;
+
+}
+
+.form-ct form ol li .user img{
+
+	padding-top:6px;
+
+}
+
+.form-ct form ol li input.login{
+
+	width:110px;
+
+	height:41px;
+
+	font-size:14px;
+
+	color:#fff;
+
+	text-shadow:1px 0px 1px #08d4f2;
+
+	display:inline-block;
+
+	background: url(../img/sub.gif) repeat-x;
+
+	border:1px solid #0a9dca;
+
+}
+
+.form-ct form ol li input.login:hover{
+
+	background: url(../img/sub-hover.gif) repeat-x;
+
+}
+
+.form-ct form ol li a{
+
+	color:#36393a;
+
+	padding:15px 0px 0px 10px;
+
+	font-size:11px;
+
+	display:inline-block;
+
+	vertical-align:top;	
+
+	text-decoration:underline;
+
+}
+
+.form-ct form ol li textarea{
+
+}
+
+.form-ct form ol li textarea.small{
+
+	width:250px;
+
+	height:60px;
+
+}
+
+
+
+.form-ct form ol li a:hover{
+
+	text-decoration:none;
+
+}
+
+/*  --  Login ct ENd  ---  */
+
+
+
+.form-ct form ol li select.small-full
+
+{
+
+width:200px
+
+}
+
+#ct-form-ct1{
+
+	width:1100px;
+
+	float:left;
+
+	overflow:hidden;
+
+	margin:10px 0px 0px 0px;	
+
+	border:none;
+
+}
+.authtable
+{
+font-size:14px;
+
+}
+.authtable th
+{
+background:#438eb9;
+padding-top:5px;
+padding-bottom:5px;
+padding-left:2px;
+color:#fff;
+}
+.authtable td
+{
+
+}

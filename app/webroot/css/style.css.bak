@@ -1,0 +1,544 @@
+/* TOC 
+ * RESET STYLES
+ * FONT FACE (IF USED)
+ * HTML
+ * BODY
+ * HEADER
+ * NAVIGATION
+ * PAGEx-shdow
+ * FOOTER
+ * FORMS
+ * PLUGINS
+ * PRINT STYLES
+ * MEDIA QUERIES
+---------------------------------------------------------------------------*/
+
+
+/* RESET STYLES
+---------------------------------------------------------------------------*/
+
+body {
+	 margin:0;
+	 font-family:'Myriad Pro',Arial, Helvetica, sans-seri;
+	 font-size: 13px;
+	 color:#5d6060;
+	 font-weight:normal;
+	 background:#fff;
+	 min-height:100%;
+} 
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after { /* Safari Reset as Safari does not recognise quotes property */
+	 content: '';
+	 content: none;
+} 
+abbr[title], dfn[title] {
+	 border-bottom: 1px dotted #000; 
+	 cursor: help;
+}
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+p {
+	 margin:0;
+	 padding:0;
+}
+a {
+	 margin:0;
+	 padding:0;
+	 font-size: 100%;
+	 text-decoration:none;
+	 vertical-align: baseline;
+	 background: transparent;
+}
+a:hover, a:active {
+    outline: 0;
+}
+a img {
+    border:0 none;
+}
+del {
+	 text-decoration: line-through;
+}
+button, input, select, textarea {
+     margin: 0; /* Webkit browsers add a 2px margin outside the chrome of form elements */
+}
+button { /* make buttons play nice in IE */
+	 width: auto;
+	 overflow: visible;
+}
+table {
+	 font-size: inherit;
+	 border-collapse: collapse;
+	 border-spacing: 0;
+}
+th {
+	 font-weight: bold;
+	 vertical-align: bottom;
+}
+td {
+    font-weight: normal;
+}
+td, td img {
+    vertical-align: top;
+}
+.clearfix:before, .clearfix:after {
+	 content:"";
+	 display:table;
+}
+.clearfix:after {
+     clear:both;
+}
+.clearfix {
+     zoom:1;
+}
+dd {
+     margin: 0 0 0 40px;
+}
+ul, ol {
+	 margin: 0;
+	 padding: 0;
+}
+ul li, ol li {
+     list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	 margin:0;
+	 padding:0;
+	 font-weight:normal;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+/*------  font ------ */
+@font-face {
+    font-family: 'oswaldbook';
+    src: url('oswald-regular.eot');
+    src: url('oswald-regular.eot?#iefix') format('embedded-opentype'),
+         url('oswald-regular.woff') format('woff'),
+         url('oswald-regular.ttf') format('truetype'),
+         url('oswald-regular.svg#oswaldbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------  font end ------ */
+/*=========Basic ENd   =====*/
+/*  --  Login ct  ---  */
+.form-ct{
+	width:408px;
+	background:#fff;
+	margin:150px auto;
+	border:1px solid #0eb0e1;
+	overflow:hidden;	
+}
+#ct-form-ct{
+	width:375px;
+	float:left;
+	overflow:hidden;
+	margin:10px 0px 0px 0px;	
+	border:none;
+}
+#form-ct-bg{
+	width:550px;
+}
+.form-ct h1{
+	margin-bottom:20px;
+	background: url(../img/l_bg.png) no-repeat #00b1e8;
+	height:72px;
+	line-height:72px;
+	text-align:center;
+	color:#fff;
+}
+.form-ct h2{
+	margin-bottom:20px;
+	background:#00b1e8;
+	height:72px;
+	line-height:72px;
+	text-align:center;
+	color:#fff;
+}
+.form-ct form{
+	padding:20px 40px;
+}
+.form-ct .form-m{
+	padding:10px 20px;
+}
+.form-ct form ol{
+	padding:0;
+	margin:0;
+}
+.form-ct form ol li{
+	width:100%;
+	padding:0;
+	margin-bottom:10px;
+}
+.form-ct form ol li label{
+
+}
+.form-ct form ol li label.small{
+	width:75px;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:10px;
+}			
+			
+.form-ct form ol li input{
+
+	padding:0 2%;	
+	line-height:30px;
+	display:inline-block;	
+}
+.form-ct form ol li input.half{
+	width:45%;
+}
+.form-ct form ol li input.half-full{
+	width:80.7%;
+	margin-bottom:10px;
+}
+.form-ct form ol li input.full{
+	width:95%;
+}
+.form-ct form ol li input.small-full{
+	width:200px;
+}
+.form-ct form ol li select.small-full{
+	width:200px;
+}
+.form-ct form ol li select{
+	font-size:13px;
+	text-align:center;
+	color:#a9a9a9;
+
+	height:34px;
+	padding:0 5px;
+	line-height:34px;
+	display:inline-block;
+}
+.form-ct form ol li select.half{
+	width:49%;
+	height:34px;
+	padding:0 5px;
+	line-height:34px;
+	display:inline-block;
+}
+.form-ct form ol li select.half-r{
+	width:48%;
+	height:34px;
+	padding:0 5px;
+	line-height:34px;
+	display:inline-block;
+	margin-left:10px;
+}
+.form-ct form ol li .user{
+	background:#05b3e8;
+	width:43px;
+	height:34px;
+	display: inline-block;
+	text-align:center;
+	vertical-align:top;
+}
+.form-ct form ol li .user img{
+	padding-top:6px;
+}
+.form-ct form ol li input.login{
+	width:110px;
+	height:41px;
+	font-size:14px;
+	color:#fff;
+	text-shadow:1px 0px 1px #08d4f2;
+	display:inline-block;
+	background: url(../img/sub.gif) repeat-x;
+	border:1px solid #0a9dca;
+}
+.form-ct form ol li input.login:hover{
+	background: url(../img/sub-hover.gif) repeat-x;
+}
+.form-ct form ol li a{
+	color:#36393a;
+	padding:15px 0px 0px 10px;
+	font-size:11px;
+	display:inline-block;
+	vertical-align:top;	
+	text-decoration:underline;
+}
+.form-ct form ol li textarea{
+}
+.form-ct form ol li textarea.small{
+	width:250px;
+	height:60px;
+}
+
+.form-ct form ol li a:hover{
+	text-decoration:none;
+}
+/*  --  Login ct ENd  ---  */
+/*  --  Left Zone  ---  */
+aside{
+	width:20%;
+	position:absolute;
+	height:100%;
+	left:0;
+	background: url(../img/leftz-bg.png) repeat-x #00b1e8;
+}
+aside .logo{
+	width:100%;
+	margin-bottom:31px;	
+	height:96px;
+	border-bottom:1px solid #3dcaf5;
+}
+aside h2{
+	padding:0 25px;
+	padding-bottom:15px;
+	font-size:18px;
+	color:#fff;
+}
+aside ul{
+	padding:0 25px;
+	padding-bottom:15px;
+	margin:0;
+}
+aside ul li{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+aside ul li{
+	padding:5px 0px;
+	margin:0;
+	list-style:none;
+}
+aside ul li a{
+	color:#fff;
+	padding-left:30px;
+}
+aside ul li a:hover{
+	text-decoration:underline;
+}
+aside .user a{
+	background:url(../img/add-user.png) left no-repeat;	
+}
+aside .user a:hover{
+	background:url(../img/add-user-h.png) left no-repeat;	
+}
+aside .l-user a{
+	background: url(../img/list-emp.png) left no-repeat;	
+}
+aside .l-user a:hover{
+	background: url(../img/list-emp-h.png) left no-repeat;	
+}
+aside .profile a{
+	background: url(../img/profile.png) left no-repeat;	
+}
+aside .profile a:hover{
+	background:url(../img/profile-h.png) left no-repeat;	
+}
+aside .copyright{
+	width:100%;
+	padding:15px 0px;
+	position:absolute;
+	bottom:0;
+	color:#fff;
+	border-top:1px solid #47d2fe;
+}
+aside .copyright p{
+	padding:0 25px;
+}
+/*  --  Left Zone ENd  ---  */
+/*  --  Container  ---  */
+.container{
+	width:80%;
+	float:right;
+}
+.container .container-in{
+	width:100%;
+	
+}
+.container .container-in .header{
+	width:90%;
+	height:96px;
+	float: left;
+	clear:both;		
+	border-bottom:1px solid #cccccc;
+}
+.container .container-in .header{
+	width:90%;
+	float:left;
+	padding:0 5%;
+}
+.container .container-in .header .s-box{
+	width:22%;
+	padding:0 1%;
+	float:left;
+	height:34px;
+	vertical-align:top;
+	margin-top:30px;
+	background:#fff;
+	border-radius:50px;
+	border:1px solid #bebdbd;
+	box-shadow: 0 1px 0px 1px #f1efef inset;
+}
+.container .container-in .header .s-box .search{
+	width:10%;0
+	vertical-align:top;
+	padding:0 5px;
+	height:34px;
+	background:url(../img/search.png) left 7px no-repeat;
+	border:0px;
+	cursor:pointer;
+	display:inline-block;	
+}
+.container .container-in .header .s-box .search:hover{
+	background:url(../img/search-h.png) left 7px no-repeat;
+}
+.container .container-in .header .s-box .input{
+	width:84%;
+	margin-top:1px;
+	display:inline-block;
+	font-family:'Myriad Pro',Arial, Helvetica, sans-seri;
+	font-size:13px;
+	color:#52595b;
+	vertical-align:top;
+	border:none;
+	height:33px;
+	line-height:33px;
+	border-radius:50px;	
+	padding:0 3%;
+}
+.container .container-in .header .hd-menu{
+	width:50%;
+	padding-left:49px;
+	margin-top:25px;
+	height:46px;
+	float:left;
+	line-height:46px;
+	float:left;
+}
+.container .container-in .header .hd-menu ul{
+	padding:0;
+	margin:0;
+}
+.container .container-in .header .hd-menu ul li{
+	padding:0 13px;
+	margin:0;
+	border-left:1px solid #eeeeee;
+	float:left;
+	position:relative;
+}
+.container .container-in .header .hd-menu ul li span{
+	width:16px;
+	height:16px;
+	top:5px;
+	right:5px;
+	font-size:12px;
+	text-align:center;
+	color:#fff;
+	border-radius:2px;
+	line-height:16px;
+	position:absolute;
+	background:#d9534f;
+}
+.container .container-in .header .hd-menu .group>i{
+	width:27px;
+	height:27px;
+	margin-top:10px;
+	margin-right:10px;
+	float:left;
+	border-radius:50%;
+	overflow:hidden;
+	display:inline-block;
+}
+.container .container-in .header .hd-menu .group>a{
+	padding-left:10px;
+}
+.container .container-in .header .list{
+	float:right;
+	line-height:50px;
+	line-height:110px;
+}
+/*--    --  list   ---   --  */
+.container .container-in .list-ct{
+	width:90%;
+	height:45px;
+	float:left;
+	line-height:45px;
+	padding:0 5%;	
+}
+.container .container-in .list-ct ul{
+	padding:0;
+	margin:0;
+}
+.container .container-in .list-ct ul li{
+	padding:0;
+	margin:0;
+	background:url(../img/dved.png) left no-repeat;
+	float:left;
+	display:inline-block;
+	position:relative;
+}
+.container .container-in .list-ct ul li:first-child a{
+	background:none;	
+}
+.container .container-in .list-ct ul li a{
+	padding:0 20px;
+	color:#52595b;
+	display:block;
+	background:url(../img/dved.png) left no-repeat;
+}
+.container .container-in .list-ct ul li a:hover{
+	color:#1ebdee;	
+}
+.container .container-in .list-ct .f-child{
+	background:url(../img/home.png) left no-repeat;
+}
+.container .container-in .list-ct .f-child:hover{
+	background:url(../img/home-h.png) left no-repeat;
+}
+/*--    --  list ENd   ---   --  */
+/*--    Content Container  --  */
+.container .container-in .content-ct{
+	width:90%;
+	margin:0 5%;
+	float:left;
+	border:1px solid #cccccc;
+	border-top:0px;
+}
+.container .container-in .content-ct .title{
+	width:100%;
+	padding:0 2%;
+	height:48px;
+	background:#04b3e9;
+	line-height:48px;
+	font-size:18px;
+	color:#fff;
+	box-shadow:inset 1px 1px 10px #0fc8ef;
+	border:1px solid #149fca;
+}
+
+.container .container-in .content-ct .map{
+	float:right;
+	margin-top:35px;
+}
+/*--    Content Container ENd  --  */
+
+
+/*  --  Container ENd  ---  */
+
+.error
+{
+ background: url('../img/cross.jpg') no-repeat;
+ padding: 16px;
+ padding-left: 43px;
+ margin-left: 25px;
+ color: #ff0000;
+ 
+}
+.btn a
+{
+ color:#fff;
+}

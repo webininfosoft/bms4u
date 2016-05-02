@@ -1,0 +1,1 @@
+[31-Jan-2016 00:53:49 Asia/Calcutta] PHP Fatal error:  Call to a member function query() on a non-object in /home/webinmainserver/public_html/bms4u.com/app/Controller/RetailersController.php on line 103

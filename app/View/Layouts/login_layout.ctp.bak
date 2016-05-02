@@ -1,0 +1,21 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="ie ie6" lang="ru"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie ie7" lang="ru"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie ie8" lang="ru"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie ie9" lang="ru"> <![endif]-->
+<!--[if gt IE 9]><!--><html lang="ru"><!--<![endif]-->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<title><?php echo $title_for_layout; ?></title>
+	<link rel="stylesheet" href="<?php echo $this->html->url('/css/style.css');?>">
+</head>
+<body>
+		<?php echo $this->fetch('content'); ?>
+
+
+
+
+</body>
+</html>

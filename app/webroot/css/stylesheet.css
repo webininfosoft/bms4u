@@ -1,0 +1,12 @@
+.download{
+position: absolute;
+    left:136px;
+    top: 475px;
+    z-index: 1;
+}
+.login{
+position: absolute;
+    left:600px;
+    top: 475px;
+    z-index: 1;
+}
